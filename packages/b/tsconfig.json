@@ -1,0 +1,21 @@
+{
+/* 	"extends": "aegir/src/config/tsconfig.aegir.json", */
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"target": "ES2022",
+		"module": "ES2022",
+		 "experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"strictNullChecks": false, 
+		"outDir": "dist",
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		 "allowJs": true,                                    
+        "esModuleInterop": true,
+		"sourceMap": true
+	},
+	"include": [
+		"src",
+		"test"
+	]
+}
