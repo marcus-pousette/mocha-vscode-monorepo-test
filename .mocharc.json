@@ -1,10 +1,15 @@
 {
-    "require": "ts-node/register",
-    "loader": "ts-node/esm",
-    "extensions": ["ts", "tsx"],
-    "spec": [
-      "**/test/**/*.spec.ts"
-    ],
+  "node-option": [
+    "experimental-specifier-resolution=node",
+    "import=tsx",
+    "no-warnings"
+  ],
+  "extensions": [
+    "ts"
+  ],
+  "spec": [
+    "**/test/**/*.spec.ts"
+  ],
     "watch-files": [
       "src"
     ],
