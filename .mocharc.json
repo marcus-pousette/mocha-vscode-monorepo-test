@@ -7,5 +7,8 @@
     ],
     "watch-files": [
       "src"
+    ],
+    "ignore": [
+      "**/node_modules/**"
     ]
 }
