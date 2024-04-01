@@ -1,4 +1,4 @@
- import { expect } from 'chai'
+import { expect } from 'chai'
 import { subtract } from '../src/index.js'
  
 
