@@ -3,7 +3,7 @@ import { add } from '../src/index.js'
 
 describe("suite", () => {
     it('test', () => {
-        throw Error('Expected to fail')
+        throw new Error('Expected to fail')
        /*  expect(add(1, 2)).to.equal(3) */
     })
 })
